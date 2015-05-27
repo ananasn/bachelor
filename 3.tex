@@ -1,0 +1,57 @@
+\chapter{Демонстрация работы и перспективы развития}
+\section{Демонстрация работы на базе FabLab}
+В лаборатории FabLab на станке Roland MDX-40A\,(\autoref{fig:roland}) была испытана работоспособность модуля 3D-моделирования рельефа.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.7\textwidth]{roland.png}
+    \caption[Гравировально-фрезерный станок Roland MDX-40A]
+            {Гравировально-фрезерный станок Roland MDX-40A}
+    \label{fig:roland}
+\end{figure} 
+После загрузки изображения и построения 3D-модели в формате STL\,(\autoref{fig:mymodel}), модель скачивается на персональный компьютер, подключенный к станку. 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.9\textwidth]{mymodel.png}
+    \caption[Сгенерированная модель]
+            {Сгенерированная модель}
+    \label{fig:mymodel}
+\end{figure} 
+На данном компьютере установлено программное обеспечение фирмы Roland -- SPR Player\,(Substractive Rapid Prototype). SPR Player -- это CAM-система, которая позволяет преобразовывать модели форматов IGES, STL, 3DM в управляющую программу. При этом управляющая программа состоит не из G-кодов, а из команд в нотации RML\,(Roland machine Language). Пример команд в нотации RML приведен на листинге:
+
+{\singlespacing
+\begin{lstlisting}[
+    language=python,showstringspaces=false,basicstyle=\ttfamily,frame=tb,
+    caption={Управляющая программа в нотации RML}]
+^DF 
+!NR
+! 1;
+V 30;
+Z 0,0,50;
+Z 33458,270,50;
+V 7;
+Z 33458,270,-100;
+V 30;
+Z 0,270,-100;
+V 7;
+Z 0,270,-200;
+V 30;
+Z 33458,270,-200;
+V 30;
+Z 33458,270,50;
+V 30;
+Z 0,0,50;
+^DF;
+\end{lstlisting}
+}
+
+После получения управляющей программы была проведена черновая обработка, в результате чего получилось следующее изделие\,(\autoref{fig:myresult}):
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.7\textwidth]{myresult.jpg}
+    \caption[Результат обработки]
+            {Результат обработки}
+    \label{fig:myresult}
+\end{figure} 
+\section{Демонстрация работы с помощью модуля визуализации системы PyCAM}
+
+\section{Перспективы развития разработки}
