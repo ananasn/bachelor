@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.28)  27 MAY 2015 19:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.28)  5 JUN 2015 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -466,45 +466,72 @@ File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
 Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
+(/usr/local/texlive/2014/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks25
+\footnotemargin=\dimen140
+\c@pp@next@reset=\count129
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen140
-\WF@size=\dimen141
-\c@WF@wrappedlines=\count129
+\wrapoverhang=\dimen141
+\WF@size=\dimen142
+\c@WF@wrappedlines=\count130
 \WF@box=\box30
-\WF@everypar=\toks25
+\WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks27
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count131
+\rotFPtop=\skip53
+\rotFPbot=\skip54
+\rot@float@box=\box31
+\rot@mess@toks=\toks28
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen142
+\bigstrutjot=\dimen143
 )
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 49.
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring ON on input line 69.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -512,11 +539,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count130
+\c@section@level=\count132
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
@@ -525,17 +552,17 @@ LaTeX Info: Redefining \nameref on input line 49.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
-\scratchdimen=\dimen143
-\scratchbox=\box32
-\nofMPsegments=\count132
-\nofMParguments=\count133
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count134
-\MPscratchDim=\dimen144
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count133
+\scratchdimen=\dimen144
+\scratchbox=\box33
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen145
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks30
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -545,14 +572,14 @@ LaTeX Info: Redefining \nameref on input line 49.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 497.92325pt, 28.45274pt)
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=497.92325pt
+* \textwidth=455.24411pt
 * \textheight=731.23584pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
 * \topmargin=-49.28133pt
 * \headheight=14.0pt
 * \headsep=19.91684pt
@@ -571,7 +598,7 @@ LaTeX Info: Redefining \nameref on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 49.
+LaTeX Info: Redefining \microtypecontext on input line 69.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -585,18 +612,18 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\c@lstlisting=\count137
-Package color Info: Redefining color red on input line 61.
+\c@lstlisting=\count139
+Package color Info: Redefining color red on input line 81.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-\firstskip=\skip53
-\secondskip=\skip54
-\thirdskip=\skip55
-\fourthskip=\skip56
-\fifthskip=\skip57
-\sixthskip=\skip58
+\firstskip=\skip55
+\secondskip=\skip56
+\thirdskip=\skip57
+\fourthskip=\skip58
+\fifthskip=\skip59
+\sixthskip=\skip60
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./thes
@@ -624,151 +651,322 @@ File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 ) [2
 
 
-])
+]
+Overfull \hbox (3.19315pt too wide) detected at line 34
+\T2A/cmr/m/n/14.4 Д.1.  
+ []
+
+
+Overfull \hbox (3.19315pt too wide) detected at line 35
+\T2A/cmr/m/n/14.4 Д.2.  
+ []
+
+
+Overfull \hbox (1.51483pt too wide) detected at line 36
+\T2A/cmr/m/n/14.4 Д.2.1.  
+ []
+
+
+Overfull \hbox (29.67433pt too wide) in paragraph at lines 36--36
+ [][] [][][]\T2A/cmr/m/n/14.4 (-20) Функции ко^^?ор^^?ди^^?ни^^?ру^^?ю^^?щие ра
+^^?бо^^?ту мо^^?ду^^?лей и кли^^?ент^^?ской 
+ []
+
+
+Overfull \hbox (1.51483pt too wide) detected at line 37
+\T2A/cmr/m/n/14.4 Д.2.2.  
+ []
+
+
+Overfull \hbox (1.51483pt too wide) detected at line 38
+\T2A/cmr/m/n/14.4 Д.2.3.  
+ []
+
+
+Overfull \hbox (3.19315pt too wide) detected at line 39
+\T2A/cmr/m/n/14.4 Д.3.  
+ []
+
+
+Overfull \hbox (3.19315pt too wide) detected at line 40
+\T2A/cmr/m/n/14.4 Д.4.  
+ []
+
+
+Overfull \hbox (1.86057pt too wide) detected at line 42
+\T2A/cmr/m/n/14.4 Е.1.  
+ []
+
+
+Overfull \hbox (1.86057pt too wide) detected at line 43
+\T2A/cmr/m/n/14.4 Е.2.  
+ []
+
+
+Overfull \hbox (1.86057pt too wide) detected at line 44
+\T2A/cmr/m/n/14.4 Е.3.  
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [3]
-(./intro.tex
-Overfull \hbox (6.5846pt too wide) in paragraph at lines 8--9
-[]\T2A/cmr/m/n/14.4 (-20) На дан^^?ный мо^^?мент не так мно^^?го си^^?стем ав^^
-?то^^?ма^^?ти^^?за^^?ции, []
+ [3] [4] (./abbrev.tex) (./intro.tex [5
+
+
+]
+Overfull \hbox (2.19183pt too wide) in paragraph at lines 4--6
+\T2A/cmr/m/n/14.4 (-20) же^^?ства [] G-кодов, чье ко^^?ли^^?че^^?ство мо^^?жет 
+ис^^?чис^^?лять^^?ся []. 
  []
 
 
-Overfull \hbox (11.4132pt too wide) in paragraph at lines 12--14
-\T2A/cmr/bx/n/14.4 пред^^?ме^^?та ис^^?сле^^?до^^?ва^^?ния \T2A/cmr/m/n/14.4 (-
-20) рас^^?смат^^?ри^^?ва^^?ют^^?ся ме^^?то^^?ди^^?ки, ин^^?стру^^?мен^^?ты и []
-,
+Overfull \hbox (13.30214pt too wide) in paragraph at lines 7--8
+[] \T2A/cmr/m/n/14.4 (-20) под^^?го^^?тов^^?ки УП для гра^^?ви^^?ров^^?ки [] \T
+2A/cmr/bx/n/14.4 в недо^^?
  []
 
-[4
+
+Overfull \hbox (15.37112pt too wide) in paragraph at lines 9--11
+[]\T2A/cmr/m/n/14.4 (-20) Все вы^^?ше^^?пе^^?ре^^?чис^^?лен^^?ное ука^^?зы^^?ва
+^^?ет на \T2A/cmr/bx/n/14.4 ак^^?ту^^?аль^^?ность []
+ []
 
 
-] [5]) (./1.tex [6] [7
+Overfull \hbox (18.8239pt too wide) in paragraph at lines 9--11
+\T2A/cmr/m/n/14.4 (-20) те^^?мы и  до^^?ка^^?зы^^?ва^^?ет необ^^?хо^^?ди^^?мост
+ь при^^?ме^^?не^^?ния ино^^?го под^^?хо^^?да, а [] -- при^^?
+ []
 
-] <fig/ras2vec.png, id=192, 3011.25pt x 790.45313pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+[6
+
+]
+Overfull \hbox (5.07219pt too wide) in paragraph at lines 16--17
+[]\T2A/cmr/bx/n/14.4 Целью \T2A/cmr/m/n/14.4 (-20) дан^^?ной ра^^?бо^^?ты яв^^?
+ля^^?ет^^?ся ре^^?а^^?ли^^?за^^?ция про^^?грамм^^?но^^?го []
+ []
+
+
+Overfull \hbox (13.56049pt too wide) in paragraph at lines 20--21
+[]\T2A/cmr/m/n/14.4 (-20) Сравнить ха^^?рак^^?те^^?ри^^?сти фор^^?ма^^?тов 3D-м
+оде^^?лей, для по^^?ис^^?ка []
+ []
+
+
+Overfull \hbox (14.33478pt too wide) in paragraph at lines 28--29
+[]\T2A/cmr/bx/n/14.4 Научная но^^?виз^^?на \T2A/cmr/m/n/14.4 (-20) ра^^?бо^^?ты
+ со^^?сто^^?ит в пред^^?ло^^?жен^^?ном под^^?хо^^?де []
+ []
+
+[7]) (./1.tex [8]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 2.
+
+
+Overfull \hbox (0.21475pt too wide) in paragraph at lines 7--8
+[]\T2A/cmr/m/n/14.4 (-20) использование спе^^?ци^^?а^^?ли^^?зи^^?ро^^?ван^^?ных
+ си^^?стем для под^^?го^^?тов^^?ки УП для гра^^?
+ []
+
+[9
+
+] <fig/ras2vec.png, id=301, 3011.25pt x 790.45313pt>
 File: fig/ras2vec.png Graphic file (type png)
-
-<use fig/ras2vec.png>
+ <use fig/ras2vec.png>
 Package pdftex.def Info: fig/ras2vec.png used on input line 14.
-(pdftex.def)             Requested size: 398.3401pt x 104.55965pt.
- <fig/ras2vec_plat.png, id=194, 1003.75pt x 250.9375pt>
+(pdftex.def)             Requested size: 364.19667pt x 95.59808pt.
+
+<fig/ras2vec_plat.png, id=303, 1003.75pt x 250.9375pt>
 File: fig/ras2vec_plat.png Graphic file (type png)
 
 <use fig/ras2vec_plat.png>
 Package pdftex.def Info: fig/ras2vec_plat.png used on input line 22.
-(pdftex.def)             Requested size: 398.3401pt x 99.58444pt.
- [8 <./fig/ras2vec.png> <./fig/ras2vec_plat.png>]
-[9]
-Overfull \hbox (9.05817pt too wide) in paragraph at lines 55--56
-\T2A/cmr/m/n/14.4 (-20) ти^^?плат^^?фор^^?мен^^?ность. ArtCAM под^^?дер^^?жи^^?
-ва^^?ет толь^^?ко плат^^?фор^^?му Windows, а []
+(pdftex.def)             Requested size: 364.19667pt x 91.0496pt.
+ [10 <./fig/ras2vec.png> <./fig/ras2vec_plat.png>]
+Overfull \hbox (6.10597pt too wide) in paragraph at lines 32--33
+[]\T2A/cmr/m/n/14.4 (-20) потеря неко^^?то^^?рых де^^?та^^?лей в слу^^?чае ис^^
+?поль^^?зо^^?ва^^?ния си^^?стем []
  []
 
-[10] <fig/client-server.png, id=214, 752.8125pt x 361.35pt>
+[11]
+Overfull \hbox (5.77928pt too wide) in paragraph at lines 47--48
+[]\T2A/cmr/m/n/14.4 (-20) Также в ArtCAM при^^?сут^^?ству^^?ют ин^^?стру^^?мен^
+^?ты сгла^^?жи^^?ва^^?ния []
+ []
+
+
+Overfull \hbox (12.3479pt too wide) in paragraph at lines 51--52
+\T2A/cmr/m/n/14.4 (-20) ло^^?же^^?ния. Та^^?ким об^^?ра^^?зом, обыч^^?ный кно^^
+?поч^^?ный ин^^?тер^^?фейс с []
+ []
+
+[12]
+Overfull \hbox (3.86147pt too wide) in paragraph at lines 58--59
+[]\T2A/cmr/m/it/14.4 (-20) Портируемость\T2A/cmr/m/n/14.4 (-20) . Ос^^?нов^^?но
+й ха^^?рак^^?те^^?ри^^?сти^^?кой пор^^?ти^^?ру^^?е^^?мо^^?сти []
+ []
+
+
+Overfull \hbox (21.18121pt too wide) in paragraph at lines 58--59
+\T2A/cmr/m/n/14.4 (-20) муль^^?ти^^?плат^^?фор^^?мен^^?ность. ArtCAM под^^?дер^
+^?жи^^?ва^^?ет толь^^?ко плат^^?фор^^?му Windows,
+ []
+
+
+Overfull \hbox (10.69582pt too wide) in paragraph at lines 60--61
+[]\T2A/cmr/m/n/14.4 (-20) Из вы^^?ше^^?ска^^?зан^^?но^^?го сле^^?ду^^?ет, что A
+rtCAM име^^?ет сле^^?ду^^?ю^^?щие []: 
+ []
+
+<fig/client-server.png, id=336, 752.8125pt x 361.35pt>
 File: fig/client-server.png Graphic file (type png)
 
 <use fig/client-server.png>
-Package pdftex.def Info: fig/client-server.png used on input line 73.
-(pdftex.def)             Requested size: 248.96162pt x 119.4995pt.
- [11 <./fig/client-server.png>]
-Overfull \hbox (3.34412pt too wide) in paragraph at lines 105--105
- [][] 
+Package pdftex.def Info: fig/client-server.png used on input line 76.
+(pdftex.def)             Requested size: 364.19667pt x 174.81895pt.
+
+Overfull \hbox (7.18138pt too wide) in paragraph at lines 73--81
+[]\T2A/cmr/m/n/14.4 (-20) Веб-приложение по^^?стро^^?е^^?но на кли^^?ент-^^?сер
+^^?вер^^?ной ар^^?хи^^?тек^^?ту^^?ре([][]рис. 1.3[][][]),
  []
 
 
-Overfull \hbox (4.00119pt too wide) in paragraph at lines 103--119
- [] 
+Overfull \hbox (27.1649pt too wide) in paragraph at lines 73--81
+\T2A/cmr/m/n/14.4 (-20) где в ка^^?че^^?стве кли^^?ен^^?та вы^^?сту^^?па^^?ет в
+еб-^^?бра^^?у^^?зер, а в ка^^?че^^?стве сер^^?ве^^?ра -- [].
  []
 
-[12]) (./2.tex [13] <fig/seq_diagram.png, id=236, 903.375pt x 324.46219pt>
+[13] [14 <./fig/client-server.png>]
+Overfull \hbox (8.55304pt too wide) in paragraph at lines 97--98
+[]\T2A/cmr/m/n/14.4 (-20) Такой под^^?ход поз^^?во^^?ля^^?ет со^^?хра^^?нить вс
+е де^^?та^^?ли изоб^^?ра^^?же^^?ния, а [],
+ []
+
+
+Overfull \hbox (6.42068pt too wide) in paragraph at lines 97--98
+\T2A/cmr/m/n/14.4 (-20) вы^^?зы^^?ва^^?е^^?мые раст^^?ро^^?вым пред^^?став^^?ле
+^^?ни^^?ем, устра^^?нить по^^?сред^^?ством []
+ []
+
+) (./2.tex [15] [16] <fig/seq_diagram.png, id=362, 451.6875pt x 324.46219pt>
 File: fig/seq_diagram.png Graphic file (type png)
 
 <use fig/seq_diagram.png>
-Package pdftex.def Info: fig/seq_diagram.png used on input line 16.
-(pdftex.def)             Requested size: 572.60869pt x 205.67473pt.
-
-Overfull \hbox (74.68544pt too wide) in paragraph at lines 16--18
- [][] 
- []
-
-[14
+Package pdftex.def Info: fig/seq_diagram.png used on input line 17.
+(pdftex.def)             Requested size: 409.71692pt x 294.33028pt.
+ [17
 
  <./fig/seq_diagram.png>]
+Overfull \hbox (3.0119pt too wide) in paragraph at lines 25--26
+\T2A/cmr/m/n/14.4 (-20) ха^^?рак^^?те^^?ри^^?зу^^?ет^^?ся тре^^?мя ве^^?ли^^?чи
+^^?на^^?ми, опре^^?де^^?ля^^?ю^^?щи^^?ми со^^?дер^^?жа^^?ние [],
+ []
 
-LaTeX Warning: Command \cyrd invalid in math mode on input line 25.
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \cyrl invalid in math mode on input line 25.
+LaTeX Warning: Command \cyrl invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \cyrya invalid in math mode on input line 25.
+LaTeX Warning: Command \cyrya invalid in math mode on input line 27.
 
 Missing character: There is no д in font cmr12!
 Missing character: There is no л in font cmr12!
 Missing character: There is no я in font cmr12!
-<fig/json.png, id=245, 907.39pt x 137.51375pt>
+[18] <fig/json.png, id=387, 907.39pt x 137.51375pt>
 File: fig/json.png Graphic file (type png)
  <use fig/json.png>
-Package pdftex.def Info: fig/json.png used on input line 41.
-(pdftex.def)             Requested size: 398.3401pt x 60.36774pt.
- [15]
-<fig/STL.png, id=255, 853.1875pt x 301.125pt>
+Package pdftex.def Info: fig/json.png used on input line 46.
+(pdftex.def)             Requested size: 364.19667pt x 55.19336pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig/STL.png, id=389, 853.1875pt x 301.125pt>
 File: fig/STL.png Graphic file (type png)
  <use fig/STL.png>
-Package pdftex.def Info: fig/STL.png used on input line 51.
-(pdftex.def)             Requested size: 497.92325pt x 175.74158pt.
- [16 <./fig/json.png> <./fig/STL.png>]
-<fig/format_diagram.png, id=266, 674.52pt x 211.79124pt>
+Package pdftex.def Info: fig/STL.png used on input line 56.
+(pdftex.def)             Requested size: 455.24411pt x 160.67986pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19] <fig/format_diagram.png, id=402, 674.52pt x 211.79124pt>
 File: fig/format_diagram.png Graphic file (type png)
 
 <use fig/format_diagram.png>
-Package pdftex.def Info: fig/format_diagram.png used on input line 67.
-(pdftex.def)             Requested size: 398.3401pt x 125.07532pt.
+Package pdftex.def Info: fig/format_diagram.png used on input line 72.
+(pdftex.def)             Requested size: 455.24411pt x 142.94322pt.
 
-<fig/demonstration.png, id=268, 601.24625pt x 296.10625pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <./fig/json.png> <./fig/STL.png>]
+<fig/demonstration.png, id=411, 601.24625pt x 296.10625pt>
 File: fig/demonstration.png Graphic file (type png)
 
 <use fig/demonstration.png>
-Package pdftex.def Info: fig/demonstration.png used on input line 85.
-(pdftex.def)             Requested size: 398.3401pt x 196.18526pt.
- [17 <./fig/format_diagram.png>]
-<fig/Brightness.png, id=275, 361.35pt x 271.0125pt>
+Package pdftex.def Info: fig/demonstration.png used on input line 90.
+(pdftex.def)             Requested size: 500.77129pt x 246.63109pt.
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 90--92
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21 <./fig/format_diagram.png>]
+<fig/Brightness.png, id=420, 361.35pt x 271.0125pt>
 File: fig/Brightness.png Graphic file (type png)
  <use fig/Brightness.png>
-Package pdftex.def Info: fig/Brightness.png used on input line 94.
-(pdftex.def)             Requested size: 363.48184pt x 272.61218pt.
+Package pdftex.def Info: fig/Brightness.png used on input line 101.
+(pdftex.def)             Requested size: 332.32625pt x 249.24767pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<fig/Contrast.png, id=277, 554.07pt x 385.44pt>
+<fig/Contrast.png, id=421, 554.07pt x 385.44pt>
 File: fig/Contrast.png Graphic file (type png)
  <use fig/Contrast.png>
-Package pdftex.def Info: fig/Contrast.png used on input line 103.
-(pdftex.def)             Requested size: 497.92325pt x 346.38112pt.
+Package pdftex.def Info: fig/Contrast.png used on input line 108.
+(pdftex.def)             Requested size: 500.77129pt x 348.36313pt.
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 108--110
+ [][] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18 <./fig/demonstration.png>]
 
-LaTeX Warning: Text page 19 contains only floats.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <./fig/Brightness.png> <./fig/Contrast.png>]
-<fig/g_module.png, id=295, 219.06844pt x 170.13562pt>
+[22 <./fig/demonstration.png>]
+
+LaTeX Warning: Text page 23 contains only floats.
+
+[23 <./fig/Brightness.png> <./fig/Contrast.png>]
+<fig/g_module.png, id=439, 219.06844pt x 170.13562pt>
 File: fig/g_module.png Graphic file (type png)
  <use fig/g_module.png>
-Package pdftex.def Info: fig/g_module.png used on input line 115.
-(pdftex.def)             Requested size: 199.16626pt x 154.68086pt.
+Package pdftex.def Info: fig/g_module.png used on input line 120.
+(pdftex.def)             Requested size: 168.4381pt x 130.8153pt.
 
-[20 <./fig/g_module.png>]
+[24 <./fig/g_module.png>]
+Overfull \hbox (17.11523pt too wide) in paragraph at lines 126--127
+[]\T2A/cmr/m/n/14.4 (-20) Генератор управ^^?ля^^?ю^^?щих про^^?грамм пред^^?ста
+в^^?ля^^?ет со^^?бой мо^^?дуль([][]прил. Б[][][]),
+ []
+
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 143.
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 143
+nput line 149.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 149
 .
-
 (/usr/local/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
@@ -776,114 +974,238 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T2A).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [21]
-[22]) (./3.tex [23] <fig/roland.png, id=344, 220.6644pt x 212.4738pt>
+ [25]
+[26]) (./3.tex [27] <fig/roland.png, id=499, 220.6644pt x 212.4738pt>
 File: fig/roland.png Graphic file (type png)
 
 <use fig/roland.png>
-Package pdftex.def Info: fig/roland.png used on input line 6.
-(pdftex.def)             Requested size: 348.54475pt x 335.61737pt.
- <fig/mymodel.png, id=346, 427.5975pt x 247.92625pt>
+Package pdftex.def Info: fig/roland.png used on input line 7.
+(pdftex.def)             Requested size: 318.66948pt x 306.85034pt.
+ <fig/mymodel.png, id=501, 427.5975pt x 247.92625pt>
 File: fig/mymodel.png Graphic file (type png)
 
 <use fig/mymodel.png>
-Package pdftex.def Info: fig/mymodel.png used on input line 14.
-(pdftex.def)             Requested size: 448.12788pt x 259.83089pt.
+Package pdftex.def Info: fig/mymodel.png used on input line 16.
+(pdftex.def)             Requested size: 409.71692pt x 237.56009pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24
 
- <./fig/roland.png>] <fig/myresult.jpg, id=355, 3276.24pt x 2457.18pt>
+Overfull \hbox (1.25735pt too wide) in paragraph at lines 21--22
+[]\T2A/cmr/m/n/14.4 (-20) На дан^^?ном ком^^?пью^^?те^^?ре уста^^?нов^^?ле^^?но
+ про^^?грамм^^?ное обес^^?пе^^?че^^?ние []
+ []
+
+[28
+
+ <./fig/roland.png>] [29 <./fig/mymodel.png>]
+<fig/myresult.jpg, id=537, 3276.24pt x 2457.18pt>
 File: fig/myresult.jpg Graphic file (type jpg)
+ <use fig/myresult.jpg>
+Package pdftex.def Info: fig/myresult.jpg used on input line 49.
+(pdftex.def)             Requested size: 318.66948pt x 238.98357pt.
 
-<use fig/myresult.jpg>
-Package pdftex.def Info: fig/myresult.jpg used on input line 50.
-(pdftex.def)             Requested size: 348.54475pt x 261.40468pt.
- [25 <./fig/mymodel.png>]) (./concl.tex [26 <./fig/myresult.jpg>]) (./thesis.bb
-l [27
+[30 <./fig/myresult.jpg>] <fig/jviewer.png, id=547, 643.40375pt x 508.90125pt>
+File: fig/jviewer.png Graphic file (type png)
 
-]) (./app-a.tex [28
+<use fig/jviewer.png>
+Package pdftex.def Info: fig/jviewer.png used on input line 62.
+(pdftex.def)             Requested size: 318.66948pt x 252.05832pt.
+ <fig/cutviewer.png, id=550, 1145.27875pt x 434.62375pt>
+File: fig/cutviewer.png Graphic file (type png)
+
+<use fig/cutviewer.png>
+Package pdftex.def Info: fig/cutviewer.png used on input line 72.
+(pdftex.def)             Requested size: 500.77129pt x 190.0413pt.
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 72--74
+ [][] 
+ []
+
+) (./concl.tex [31 <./fig/jviewer.png> <./fig/cutviewer.png>]) (./thesis.bbl
+[32
 
 ]
-<fig/root.png, id=402, 407.5225pt x 639.38875pt>
+Underfull \hbox (badness 1803) in paragraph at lines 79--82
+[][][]\T2A/cmr/m/n/14.4 (+20) PyCAM doc^^?u^^?men^^?ta^^?tion [Электронный ресу
+рс][][].  URL: [][]$\T2A/cmtt/m/n/14.4 http : / /
+ []
+
+[33
+
+]
+Underfull \hbox (badness 4899) in paragraph at lines 137--140
+[][][]\T2A/cmr/m/n/14.4 (+20) jViewer Sofr^^?ware [Электронный ресурс][][].  UR
+L: [][]$\T2A/cmtt/m/n/14.4 http : / / www .
+ []
+
+) (./app-a.tex [34] <fig/root.png, id=592, 407.5225pt x 639.38875pt>
 File: fig/root.png Graphic file (type png)
- <use fig/root.png>
+
+<use fig/root.png>
 Package pdftex.def Info: fig/root.png used on input line 5.
-(pdftex.def)             Requested size: 348.54475pt x 546.87817pt.
-)
-(./app-b.tex [29
+(pdftex.def)             Requested size: 318.66948pt x 499.99928pt.
+) (./app-b.tex [35
 
  <./fig/root.png>]
-Overfull \hbox (376.25192pt too wide) in paragraph at lines 28--29
+Overfull \hbox (11.47653pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (18.8848pt too wide) in paragraph at lines 48--49
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (41.10959pt too wide) in paragraph at lines 51--52
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[36
+
+]
+Overfull \hbox (26.29306pt too wide) in paragraph at lines 54--55
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.06827pt too wide) in paragraph at lines 69--70
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \hbox (368.84366pt too wide) in paragraph at lines 29--30
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (324.39407pt too wide) in paragraph at lines 32--33
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (316.98581pt too wide) in paragraph at lines 33--34
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[30
+) (./app-c.tex [37]) (./app-d.tex [38
 
 ]
-Overfull \hbox (35.47177pt too wide) in paragraph at lines 84--85
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (29.55232pt too wide) in paragraph at lines 3--4
+\T2A/cmr/m/n/14.4 (-20) управ^^?ля^^?ю^^?щих про^^?грамм для гра^^?ви^^?ро^^?ва
+ль^^?ных стан^^?ков с ЧПУ [] для: 
  []
 
-) (./app-c.tex [31])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
- [32
+
+Overfull \hbox (7.5339pt too wide) in paragraph at lines 5--6
+[]\T2A/cmr/m/n/14.4 (-20) генерации управ^^?ля^^?ю^^?щих про^^?грамм на ос^^?но
+^^?ве раст^^?ро^^?вых []; 
+ []
+
+[39
+
+] <fig/index.png, id=754, 2419.0375pt x 1427.3325pt>
+File: fig/index.png Graphic file (type png)
+ <use fig/index.png>
+Package pdftex.def Info: fig/index.png used on input line 22.
+(pdftex.def)             Requested size: 455.24411pt x 268.60425pt.
+
+<fig/v.png, id=756, 678.535pt x 381.425pt>
+File: fig/v.png Graphic file (type png)
+ <use fig/v.png>
+Package pdftex.def Info: fig/v.png used on input line 30.
+(pdftex.def)             Requested size: 455.24411pt x 255.90262pt.
+
+<fig/ed.png, id=757, 876.27374pt x 448.67625pt>
+File: fig/ed.png Graphic file (type png)
+ <use fig/ed.png>
+Package pdftex.def Info: fig/ed.png used on input line 37.
+(pdftex.def)             Requested size: 455.24411pt x 233.10075pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./app-e.tex [40 <./fig/index.png>] [41 <./fig/v.png> <./fig/ed.png>]
+[42
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+Overfull \hbox (4.35655pt too wide) in paragraph at lines 22--23
+[]\T2A/cmr/m/n/14.4 (-20) Модуль со^^?сто^^?ит из функ^^?ции make_stl_model(), 
+ко^^?то^^?рая []
+ []
+
+) (./app-f.tex [43]
+Overfull \hbox (0.80246pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+
+Package caption Warning: Unused \captionsetup[sub] on input line 40.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
+[44
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8DB29A1A713FE52F3CAD7B4FA8A2183F;8625.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
+(rerunfilecheck)             Checksum: ECBA8817EC18EA4673650A1EE6BF0629;13399.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 16458 strings out of 493117
- 238601 string characters out of 6135433
- 373091 words of memory out of 5000000
- 19276 multiletter control sequences out of 15000+600000
- 21315 words of font info for 99 fonts, out of 8000000 for 9000
+ 16861 strings out of 493117
+ 244348 string characters out of 6135433
+ 381029 words of memory out of 5000000
+ 19569 multiletter control sequences out of 15000+600000
+ 21386 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,40p,1138b,2073s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
-}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
+ 43i,21n,40p,1495b,2077s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2014/te
-xmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on thesis.pdf (32 pages, 6734964 bytes).
+exlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on thesis.pdf (44 pages, 8835825 bytes).
 PDF statistics:
- 653 PDF objects out of 1000 (max. 8388607)
- 563 compressed objects within 6 object streams
- 251 named destinations out of 1000 (max. 500000)
- 19760 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 921 PDF objects out of 1000 (max. 8388607)
+ 806 compressed objects within 9 object streams
+ 328 named destinations out of 1000 (max. 500000)
+ 19921 words of extra memory for PDF output out of 20736 (max. 10000000)
 

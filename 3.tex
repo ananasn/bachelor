@@ -1,6 +1,7 @@
 \chapter{Демонстрация работы и перспективы развития}
 \section{Демонстрация работы на базе FabLab}
-В лаборатории FabLab на станке Roland MDX-40A\,(\autoref{fig:roland}) была испытана работоспособность модуля 3D-моделирования рельефа.
+В FabLab Университета ИТМО на станке Roland MDX-40A\,(\autoref{fig:roland}) была испытана работоспособность модуля 3D-моделирования рельефа.
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=.7\textwidth]{roland.png}
@@ -9,6 +10,7 @@
     \label{fig:roland}
 \end{figure} 
 После загрузки изображения и построения 3D-модели в формате STL\,(\autoref{fig:mymodel}), модель скачивается на персональный компьютер, подключенный к станку. 
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=.9\textwidth]{mymodel.png}
@@ -16,7 +18,7 @@
             {Сгенерированная модель}
     \label{fig:mymodel}
 \end{figure} 
-На данном компьютере установлено программное обеспечение фирмы Roland -- SPR Player\,(Substractive Rapid Prototype). SPR Player -- это CAM-система, которая позволяет преобразовывать модели форматов IGES, STL, 3DM в управляющую программу. При этом управляющая программа состоит не из G-кодов, а из команд в нотации RML\,(Roland machine Language). Пример команд в нотации RML приведен на листинге:
+На данном компьютере установлено программное обеспечение \mbox{фирмы} Roland -- SPR Player\,(Substractive Rapid Prototype) \cite{spr}. SPR Player~--~это CAM-система, которая позволяет преобразовывать модели форматов IGES\footnote{IGES (Initial Graphics Exchange Specification) -- двумерный/трехмерный векторный формат графики}, STL, 3DM\footnote{3DM -- используется для передачи геометрии NURBS.} в управляющую программу. При этом управляющая программа состоит не из G-кодов, а из команд в нотации RML\,(Roland Machine Language). Пример команд в нотации RML приведен на листинге:
 
 {\singlespacing
 \begin{lstlisting}[
@@ -36,15 +38,12 @@ V 7;
 Z 0,270,-200;
 V 30;
 Z 33458,270,-200;
-V 30;
-Z 33458,270,50;
-V 30;
-Z 0,0,50;
 ^DF;
 \end{lstlisting}
 }
 
-После получения управляющей программы была проведена черновая обработка, в результате чего получилось следующее изделие\,(\autoref{fig:myresult}):
+\newpage
+После получения управляющей программы была проведена черновая обработка, в результате чего было получено следующее изделие\,(\autoref{fig:myresult}):
 \begin{figure}[h!]
     \centering
     \includegraphics[width=.7\textwidth]{myresult.jpg}
@@ -52,6 +51,26 @@ Z 0,0,50;
             {Результат обработки}
     \label{fig:myresult}
 \end{figure} 
-\section{Демонстрация работы с помощью модуля визуализации системы PyCAM}
+\section{Демонстрация работы с помощью модуля визуализации систем jViewer и CutViewer Mill}
+Для того, чтобы продемонстрировать корректность работы модуля генерации управляющих программ, необходимо визуализировать процесс обработки по получаемому G-коду.
 
-\section{Перспективы развития разработки}
+Изначально визуализация была проведена в программе jViewer \cite{jviewer}. jViewer -- это бесплатное приложение, позволяющее представить  результат работы управляющей программы в виде каркасной модели. Тем не менее каркасная модель не так наглядна, как твердотельная модель. Результат визуализации представлен на \autoref{fig:jviewer}:
+\newpage
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=.7\textwidth]{jviewer.png}
+    \caption[Результат визуализации в jViewer]
+            {Результат визуализации в jViewer}
+    \label{fig:jviewer}
+\end{figure} 
+
+Для того, чтобы визуализировать не только результат, но и процесс обработки, используется система CutViewer Mill \cite{cutviewer}. CutViewer Mill~--~платное приложение, но разработчики предоставляют бесплатную версию на~30 дней. CutViewer Mill позволяет назначить инструмент, а также \mbox{форму} заготовки. В результате визуализации была получена твердотельная модель, которая представлена на \autoref{fig:cutviewer}:
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.1\textwidth]{cutviewer.png}
+    \caption[Результат визуализации в CutViewer Mill]
+            {Результат визуализации в CutViewer Mill}
+    \label{fig:cutviewer}
+\end{figure}

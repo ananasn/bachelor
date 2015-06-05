@@ -7,10 +7,16 @@
 \cyr\cyrd\cyra\cyrt\cyra\ %
 \cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
+
+\bibitem{web_book}
+\selectlanguageifdefined{russian}
+\BibEmph{Пьюривал~С.} Основы разработки веб-приложений.
+\newblock Питер, 2015 г.
+\newblock 272~{\cyr\cyrs.}
 
 \bibitem{Flask_link}
 \selectlanguageifdefined{english}
@@ -25,6 +31,24 @@
 \newblock ДМК Пресс, 2014.
 \newblock 272~{\cyr\cyrs.}
 
+\bibitem{Pop20141172}
+\selectlanguageifdefined{english}
+Designing an MVC Model for Rapid Web Application Development~//
+  \BibEmph{Procedia Engineering}.
+\newblock 2014.
+\newblock Vol.~69, no.~0.
+\newblock P.~1172 -- 1179.
+\newblock 24th International Symposium on Intelligent Manufacturing and
+  Automation, 2013.
+
+\bibitem{Evans20144}
+\selectlanguageifdefined{english}
+\BibEmph{Evans~A., Romeo~M., Bahrehmand~A. et~al.} 3D graphics on the web:
+  A~survey~// \BibEmph{Computers \& Graphics}.
+\newblock 2014.
+\newblock Vol.~41, no.~0.
+\newblock P.~43 -- 61.
+
 \bibitem{Threejs_link}
 \selectlanguageifdefined{english}
 \href{http://threejs.org/}{Three.js docs [Электронный ресурс]}.
@@ -35,6 +59,34 @@
 \BibEmph{Fulton~S.} HTML5 Canvas, 2nd Edition.
 \newblock O'Reilly Media, 2012.
 \newblock 750~p.
+
+\bibitem{JS_book}
+\selectlanguageifdefined{russian}
+\BibEmph{Флэнаган~Д.} JavaScript. Подробное руководство.
+\newblock Символ-Плюс, 2008.
+\newblock 992~{\cyr\cyrs.}
+
+\bibitem{G_book}
+\selectlanguageifdefined{russian}
+\BibEmph{Аверченков~В.~И.} Автоматизация подготовки управляющих программ для
+  станков с ЧПУ.
+\newblock 2011.
+\newblock 19~{\cyr\cyrs.}
+
+\bibitem{pycam_docs}
+\selectlanguageifdefined{english}
+\href{http://sourceforge.net/projects/pycam/}{PyCAM documentation [Электронный
+  ресурс]}.
+\newblock \BibUrl{http://sourceforge.net/projects/pycam/}
+  \BibUrlDate{03.06.2015}.
+
+\bibitem{iso_q}
+\selectlanguageifdefined{english}
+ISO/IEC 25010:2011 Systems and software engineering -- Systems and software
+  Quality Requirements and Evaluation (SQuaRE) -- System and software quality
+  models.
+\newblock British Standards Institution, 2011.
+\newblock 44~p.
 
 \bibitem{Python_multimedia}
 \selectlanguageifdefined{english}
@@ -48,5 +100,47 @@
   CNC Systems.
 \newblock Springer-Verlag, 2008.
 \newblock 455~p.
+
+\bibitem{chpu_iso}
+\selectlanguageifdefined{english}
+ISO 6983-1:2009 Automation systems and integration. Numerical control of
+  machines. Program format and definitions of address words. Part 1: Data
+  format for positioning, line motion and contouring control systems.
+\newblock International Organization for Standardization, 2009.
+\newblock 34~p.
+
+\bibitem{chpu_gost}
+\selectlanguageifdefined{russian}
+ГОСТ 20999-83 Устройства числового программного управления для
+  металлообрабатывающего оборудования. Кодирование информации управляющих
+  программ.
+\newblock Госстандарт России, 1983.
+\newblock 28~{\cyr\cyrs.}
+
+\bibitem{Azevedo199273}
+\selectlanguageifdefined{english}
+\BibEmph{Azevedo~P.} Algorithms in C: Robert Sedgewick, Addison-Wesley Publish
+  Company, 1990. pp. 670, hardcover, ВЈ19.95. ISBN: 0 201 51425 7~//
+  \BibEmph{Advances in Engineering Software}.
+\newblock 1992.
+\newblock Vol.~15, no.~1.
+\newblock P.~73 -- 74.
+
+\bibitem{spr}
+\selectlanguageifdefined{english}
+\href{http://www.rolanddga.com}{SPR Player Software Guide[Электронный ресурс]}.
+\newblock \BibUrl{http://www.rolanddga.com} \BibUrlDate{03.06.2015}.
+
+\bibitem{jviewer}
+\selectlanguageifdefined{english}
+\href{http://www.thingiverse.com/thing:72324}{jViewer Sofrware [Электронный
+  ресурс]}.
+\newblock \BibUrl{http://www.thingiverse.com/thing:72324}
+  \BibUrlDate{03.06.2015}.
+
+\bibitem{cutviewer}
+\selectlanguageifdefined{english}
+\href{http://www.cutviewer.com}{CutViewer Mill Sofrware [Электронный ресурс]}.
+\newblock \BibUrl{http://www.cutviewer.com} \BibUrlDate{03.06.2015}.
 
 \end{thebibliography}

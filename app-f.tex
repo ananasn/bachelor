@@ -1,0 +1,27 @@
+\chapter{Руководство адмнистратора}
+\label{app:ad}
+\section{Настройка программы}
+Для настройки и запуска разработанного программного комплекса необходимо \mbox{отредактировать} файл run.py. Его расположение в дереве проекта  представлено в \autoref{app:root}.
+
+В файле run.py задается имя хоста и прослушиваемого порта, а~также указывается режим функционирования сервера. Для это нужно отредактировать параметры host, port и debug соответственно. 
+
+{\singlespacing
+\begin{lstlisting}[showstringspaces=false,basicstyle=\ttfamily,
+    numbers=left,numberstyle=\footnotesize,numbersep=5pt,
+    caption={Файл конфигураций run.py}]
+#python2.7
+from app import app
+app.run(host = '0.0.0.0', port = 8080, debug = True)
+\end{lstlisting}
+}
+\section{Запуск}
+Для запуска работы сервера программного комплекса необходимо запустить файл run.py.
+
+{\singlespacing
+\begin{lstlisting}[
+    caption={Запуск сервера в терминале}]
+>>python run.py
+\end{lstlisting}
+}
+\section{Сообщения}
+Сообщения для администратора -- стандартные \mbox{сообщения} фреймворка Flask, отображаемые в терминале.
