@@ -18,11 +18,12 @@
             {Сгенерированная модель}
     \label{fig:mymodel}
 \end{figure} 
-На данном компьютере установлено программное обеспечение \mbox{фирмы} Roland -- SPR Player\,(Substractive Rapid Prototype) \cite{spr}. SPR Player~--~это CAM-система, которая позволяет преобразовывать модели форматов IGES\footnote{IGES (Initial Graphics Exchange Specification) -- двумерный/трехмерный векторный формат графики}, STL, 3DM\footnote{3DM -- используется для передачи геометрии NURBS.} в управляющую программу. При этом управляющая программа состоит не из G-кодов, а из команд в нотации RML\,(Roland Machine Language). Пример команд в нотации RML приведен на листинге:
+На данном компьютере установлено программное обеспечение \mbox{фирмы} Roland -- SPR Player\,(Substractive Rapid Prototype) \cite{spr}. SPR Player~--~это CAM-система, которая позволяет преобразовывать модели форматов IGES\footnote{IGES (Initial Graphics Exchange Specification) -- двумерный/трехмерный векторный формат графики}, STL, 3DM\footnote{3DM -- используется для передачи геометрии NURBS.} в управляющую программу. При этом управляющая программа состоит не из G-кодов, а из команд в нотации RML\,(Roland Machine Language). Пример команд в нотации RML приведен в \autoref{lst:rml}:
 
 {\singlespacing
 \begin{lstlisting}[
     language=python,showstringspaces=false,basicstyle=\ttfamily,frame=tb,
+    label = {lst:rml},
     caption={Управляющая программа в нотации RML}]
 ^DF 
 !NR
@@ -43,7 +44,7 @@ Z 33458,270,-200;
 }
 
 \newpage
-После получения управляющей программы была проведена черновая обработка, в результате чего было получено следующее изделие\,(\autoref{fig:myresult}):
+После получения управляющей программы, была проведена черновая обработка, в результате чего было получено следующее изделие\,(\autoref{fig:myresult}):
 \begin{figure}[h!]
     \centering
     \includegraphics[width=.7\textwidth]{myresult.jpg}
@@ -65,7 +66,7 @@ Z 33458,270,-200;
     \label{fig:jviewer}
 \end{figure} 
 
-Для того, чтобы визуализировать не только результат, но и процесс обработки, используется система CutViewer Mill \cite{cutviewer}. CutViewer Mill~--~платное приложение, но разработчики предоставляют бесплатную версию на~30 дней. CutViewer Mill позволяет назначить инструмент, а также \mbox{форму} заготовки. В результате визуализации была получена твердотельная модель, которая представлена на \autoref{fig:cutviewer}:
+Чтобы визуализировать не только результат, но и процесс обработки, может быть использована система CutViewer Mill \cite{cutviewer}. CutViewer Mill~--~платное приложение, но разработчики предоставляют бесплатную версию на~30 дней. CutViewer Mill позволяет назначить инструмент, а также \mbox{форму} заготовки. В результате визуализации была получена твердотельная модель, которая представлена на \autoref{fig:cutviewer}:
 
 \begin{figure}[h!]
     \centering

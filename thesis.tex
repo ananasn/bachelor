@@ -35,6 +35,13 @@ left=3cm, right=2cm, top=2cm, bottom=2cm, headsep=0.7cm, footskip=1cm
 
 \usepackage{rotating}
 
+ \DeclareCaptionLabelFormat{r-parens}{{#2)}} %Define our custom label
+\captionsetup[sub]{              % The subcaption settings
+    font=footnotesize,           % Make the font smaller for both label and text
+    textfont=sl,                 % Make only the caption text slanted
+    labelformat=r-parens}
+
+\usepackage{booktabs}
 \usepackage[tableposition=top]{caption}
 \usepackage{subcaption}
 \DeclareCaptionLabelFormat{gostfigure}{Рисунок #2}

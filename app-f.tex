@@ -6,7 +6,7 @@
 В файле run.py задается имя хоста и прослушиваемого порта, а~также указывается режим функционирования сервера. Для это нужно отредактировать параметры host, port и debug соответственно. 
 
 {\singlespacing
-\begin{lstlisting}[showstringspaces=false,basicstyle=\ttfamily,
+\begin{lstlisting}[showstringspaces=false,basicstyle=\ttfamily,frame=tb,
     numbers=left,numberstyle=\footnotesize,numbersep=5pt,
     caption={Файл конфигураций run.py}]
 #python2.7
@@ -18,7 +18,7 @@ app.run(host = '0.0.0.0', port = 8080, debug = True)
 Для запуска работы сервера программного комплекса необходимо запустить файл run.py.
 
 {\singlespacing
-\begin{lstlisting}[
+\begin{lstlisting}[frame=tb,
     caption={Запуск сервера в терминале}]
 >>python run.py
 \end{lstlisting}
