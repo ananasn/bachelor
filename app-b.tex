@@ -6,7 +6,7 @@
     frame=tb,
     numbers=left,numberstyle=\footnotesize]
 # -*- coding: utf-8 -*-
-#python2.7
+#python 2.7
 import copy
 import readimage
 
@@ -22,19 +22,23 @@ class Generator(object):
         self.offset = offset
         self.offset_counter = 0.0
         self.start_block = [
-                            '%','O01', 'G90', 'G21', 'G00X0Y0',
-                            'G00Z' + str(0), 
-                            'G00Z' + str(2),
-                            'G91', 'M03', 'F300.0S6000'
-                            ]
+        '%','O01', 'G90', 'G21', 'G00X0Y0',
+        'G00Z' + str(0), 
+        'G00Z' + str(2),
+        'G91', 'M03', 'F300.0S6000'
+         ]
         #блок для нечетных строк
-        self.body_block_unevenstr = [['G01X-', ''], 
-        				['G01Z-', ''], 
-        				['G01Z', '']]
+        self.body_block_unevenstr = [
+        ['G01X-', ''], 
+        ['G01Z-', ''], 
+        ['G01Z', '']
+        ]
         #блок для четных строк
-        self.body_block_evenstr = [['G01X', ''],
-        				['G01Z-', ''],
-        				['G01Z', '']]
+        self.body_block_evenstr = [
+        ['G01X', ''],
+        ['G01Z-', ''],
+        ['G01Z', '']
+        ]
         self.end_block = ['G00X0Y0', 'M05', 'M02', '%']
       
     def generate(self):
@@ -70,7 +74,7 @@ class Generator(object):
         for item in self.start_block[::-1]: res.insert(0,item)
         return res
         
-    #подставляем глубину в списки вида  ['G01Z','']
+    # подставляем глубину в списки вида  ['G01Z','']
     def _substitution(self,block,i,j):
         block = copy.deepcopy(block)
         for item in block:
@@ -94,7 +98,7 @@ class Generator(object):
     def _depth(self,heightmap,h,w):
         temp_depth = []
         for i in xrange(h): 
-            temp_depth.append( [ str(self.norm - \
+            temp_depth.append([ str(self.norm - \
             float(heightmap[i*w + j])) for j in xrange(w) ])
         print(len(temp_depth))
         return temp_depth

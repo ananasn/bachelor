@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.28)  9 JUN 2015 10:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.28)  9 JUN 2015 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -500,50 +500,30 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box31
 \rot@mess@toks=\toks28
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen143
-\lightrulewidth=\dimen144
-\cmidrulewidth=\dimen145
-\belowrulesep=\dimen146
-\belowbottomsep=\dimen147
-\aboverulesep=\dimen148
-\abovetopsep=\dimen149
-\cmidrulesep=\dimen150
-\cmidrulekern=\dimen151
-\defaultaddspace=\dimen152
-\@cmidla=\count132
-\@cmidlb=\count133
-\@aboverulesep=\dimen153
-\@belowrulesep=\dimen154
-\@thisruleclass=\count134
-\@lastruleclass=\count135
-\@thisrulewidth=\dimen155
-)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen156
+\bigstrutjot=\dimen143
 )
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -551,7 +531,7 @@ Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 76.
+Package hyperref Info: Link coloring ON on input line 77.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -559,11 +539,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count136
+\c@section@level=\count132
 )
-LaTeX Info: Redefining \ref on input line 76.
-LaTeX Info: Redefining \pageref on input line 76.
-LaTeX Info: Redefining \nameref on input line 76.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
@@ -572,16 +552,16 @@ LaTeX Info: Redefining \nameref on input line 76.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
-\scratchdimen=\dimen157
+\scratchcounter=\count133
+\scratchdimen=\dimen144
 \scratchbox=\box33
-\nofMPsegments=\count138
-\nofMParguments=\count139
+\nofMPsegments=\count134
+\nofMParguments=\count135
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count140
-\MPscratchDim=\dimen158
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen145
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
 \everyMPtoPDFconversion=\toks30
 )
 *geometry* driver: auto-detecting
@@ -618,7 +598,7 @@ LaTeX Info: Redefining \nameref on input line 76.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 76.
+LaTeX Info: Redefining \microtypecontext on input line 77.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -632,8 +612,8 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\c@lstlisting=\count143
-Package color Info: Redefining color red on input line 89.
+\c@lstlisting=\count139
+Package color Info: Redefining color red on input line 90.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
@@ -672,54 +652,9 @@ File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 
 
 ]
-Overfull \hbox (3.19315pt too wide) detected at line 34
-\T2A/cmr/m/n/14.4 Д.1.  
- []
-
-
-Overfull \hbox (1.51483pt too wide) detected at line 35
-\T2A/cmr/m/n/14.4 Д.1.1.  
- []
-
-
 Overfull \hbox (29.67433pt too wide) in paragraph at lines 35--35
  [][] [][][]\T2A/cmr/m/n/14.4 (-20) Функции ко^^?ор^^?ди^^?ни^^?ру^^?ю^^?щие ра
 ^^?бо^^?ту мо^^?ду^^?лей и кли^^?ент^^?ской 
- []
-
-
-Overfull \hbox (1.51483pt too wide) detected at line 36
-\T2A/cmr/m/n/14.4 Д.1.2.  
- []
-
-
-Overfull \hbox (1.51483pt too wide) detected at line 37
-\T2A/cmr/m/n/14.4 Д.1.3.  
- []
-
-
-Overfull \hbox (3.19315pt too wide) detected at line 38
-\T2A/cmr/m/n/14.4 Д.2.  
- []
-
-
-Overfull \hbox (3.19315pt too wide) detected at line 39
-\T2A/cmr/m/n/14.4 Д.3.  
- []
-
-
-Overfull \hbox (1.86057pt too wide) detected at line 41
-\T2A/cmr/m/n/14.4 Е.1.  
- []
-
-
-Overfull \hbox (1.86057pt too wide) detected at line 42
-\T2A/cmr/m/n/14.4 Е.2.  
- []
-
-
-Overfull \hbox (1.86057pt too wide) detected at line 43
-\T2A/cmr/m/n/14.4 Е.3.  
  []
 
 )
@@ -833,12 +768,12 @@ Package pdftex.def Info: fig/STL.png used on input line 58.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18] <fig/format_diagram.png, id=392, 674.52pt x 211.79124pt>
+[18] <fig/format_diagram.png, id=392, 663.47874pt x 207.77625pt>
 File: fig/format_diagram.png Graphic file (type png)
 
 <use fig/format_diagram.png>
 Package pdftex.def Info: fig/format_diagram.png used on input line 75.
-(pdftex.def)             Requested size: 455.24411pt x 142.94322pt.
+(pdftex.def)             Requested size: 455.24411pt x 142.5668pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -875,9 +810,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [21 <./fig/demonstration.png>] [22 <./fig/Brightness.png> <./fig/Contrast.png>]
 [23]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 146.
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 146
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 123
 .
  (/usr/local/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
@@ -886,6 +819,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T2A).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 146.
 
 [24] [25]) (./3.tex [26] <fig/roland.png, id=487, 220.6644pt x 212.4738pt>
 File: fig/roland.png Graphic file (type png)
@@ -947,50 +882,68 @@ Underfull \hbox (badness 1803) in paragraph at lines 79--82
 [32
 
 ]
-Underfull \hbox (badness 4899) in paragraph at lines 137--140
+Underfull \hbox (badness 4899) in paragraph at lines 138--141
 [][][]\T2A/cmr/m/n/14.4 (+20) jViewer Sofr^^?ware [Электронный ресурс][][].  UR
 L: [][]$\T2A/cmtt/m/n/14.4 http : / / www .
  []
 
-) (./app-a.tex [33] <fig/root.png, id=582, 407.5225pt x 639.38875pt>
-File: fig/root.png Graphic file (type png)
+) (./app-a.tex [33]
 
-<use fig/root.png>
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 3.80637pt
+(hyperref)                removed on input line 1.
+
+<fig/root.png, id=582, 407.5225pt x 639.38875pt>
+File: fig/root.png Graphic file (type png)
+ <use fig/root.png>
 Package pdftex.def Info: fig/root.png used on input line 5.
 (pdftex.def)             Requested size: 318.66948pt x 499.99928pt.
-) (./app-b.tex [34
+)
+(./app-b.tex [34
 
  <./fig/root.png>]
-Overfull \hbox (11.47653pt too wide) in paragraph at lines 25--26
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][] 
- []
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 3.80637pt
+(hyperref)                removed on input line 1.
 
 
-Overfull \hbox (18.8848pt too wide) in paragraph at lines 49--50
+Overfull \hbox (18.8848pt too wide) in paragraph at lines 53--54
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (41.10959pt too wide) in paragraph at lines 52--53
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [35
 
 ]
-Overfull \hbox (26.29306pt too wide) in paragraph at lines 55--56
+Overfull \hbox (41.10959pt too wide) in paragraph at lines 56--57
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (26.29306pt too wide) in paragraph at lines 59--60
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (4.06827pt too wide) in paragraph at lines 70--71
+Overfull \hbox (4.06827pt too wide) in paragraph at lines 74--75
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) (./app-c.tex [36]) (./app-d.tex [37
+) (./app-c.tex [36]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 3.80637pt
+(hyperref)                removed on input line 1.
+
+) (./app-d.tex [37
 
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 3.80637pt
+(hyperref)                removed on input line 1.
+
+
 Overfull \hbox (7.5339pt too wide) in paragraph at lines 5--6
 []\T2A/cmr/m/n/14.4 (-20) генерации управ^^?ля^^?ю^^?щих про^^?грамм на ос^^?но
 ^^?ве раст^^?ро^^?вых []; 
@@ -998,19 +951,19 @@ Overfull \hbox (7.5339pt too wide) in paragraph at lines 5--6
 
 [38
 
-] <fig/index.png, id=744, 2419.0375pt x 1427.3325pt>
+] <fig/index.png, id=748, 2419.0375pt x 1427.3325pt>
 File: fig/index.png Graphic file (type png)
  <use fig/index.png>
 Package pdftex.def Info: fig/index.png used on input line 22.
 (pdftex.def)             Requested size: 455.24411pt x 268.60425pt.
 
-<fig/v.png, id=746, 678.535pt x 381.425pt>
+<fig/v.png, id=750, 678.535pt x 381.425pt>
 File: fig/v.png Graphic file (type png)
  <use fig/v.png>
 Package pdftex.def Info: fig/v.png used on input line 30.
 (pdftex.def)             Requested size: 455.24411pt x 255.90262pt.
 
-<fig/ed.png, id=747, 876.27374pt x 448.67625pt>
+<fig/ed.png, id=751, 876.27374pt x 448.67625pt>
 File: fig/ed.png Graphic file (type png)
  <use fig/ed.png>
 Package pdftex.def Info: fig/ed.png used on input line 37.
@@ -1023,34 +976,40 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (./app-e.tex [39 <./fig/index.png>] [40 <./fig/v.png> <./fig/ed.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 3.80637pt
+(hyperref)                removed on input line 1.
+
 [41
 
 ]) (./app-f.tex [42]
-Overfull \hbox (0.80246pt too wide) in paragraph at lines 14--15
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 3.80637pt
+(hyperref)                removed on input line 1.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
  [43
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0ACB52AD27F8786C7A19AE0D72CE9BA8;13249.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
+(rerunfilecheck)             Checksum: 99DFED894FC7D3743DCADDF5EA29A6EF;12803.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 16995 strings out of 493117
- 246310 string characters out of 6135433
- 381866 words of memory out of 5000000
- 19672 multiletter control sequences out of 15000+600000
+ 16942 strings out of 493117
+ 245597 string characters out of 6135433
+ 383130 words of memory out of 5000000
+ 19619 multiletter control sequences out of 15000+600000
  28565 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,21n,40p,1495b,2077s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,21n,40p,1484b,2076s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -1099,10 +1058,10 @@ texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on thesis.pdf (43 pages, 8826684 bytes).
+Output written on thesis.pdf (43 pages, 8827068 bytes).
 PDF statistics:
- 910 PDF objects out of 1000 (max. 8388607)
- 798 compressed objects within 8 object streams
- 324 named destinations out of 1000 (max. 500000)
+ 917 PDF objects out of 1000 (max. 8388607)
+ 804 compressed objects within 9 object streams
+ 328 named destinations out of 1000 (max. 500000)
  25540 words of extra memory for PDF output out of 29859 (max. 10000000)
 

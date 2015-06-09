@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.28)  7 JUN 2015 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.28)  9 JUN 2015 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1812,31 +1812,19 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.12 \begin{figure}
-                   [h!]
+                   [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14     \begin{subfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ! Undefined control sequence.
-l.15     \includegraphics
-                         [width=.8\textwidth]{ras2vec.png}
+l.16     \includegraphics
+                         [width=0.8\textwidth]{ras2vec.png}\subcaption{}\lab...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1850,13 +1838,14 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 8 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.15     \includegraphics[width=.8\textwidth]
-                                             {ras2vec.png}
+l.16     \includegraphics[width=0.8\textwidth]
+                                              {ras2vec.png}\subcaption{}\lab...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1864,8 +1853,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.15     \includegraphics[width=.8\textwidth]
-                                             {ras2vec.png}
+l.16     \includegraphics[width=0.8\textwidth]
+                                              {ras2vec.png}\subcaption{}\lab...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1886,43 +1875,17 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.16      \subcaption
-                     {}
+l.16 ...dth=0.8\textwidth]{ras2vec.png}\subcaption
+                                                  {}\label{fig:ras2vec}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: \begin{document} ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18     \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20     \begin{subfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ! Undefined control sequence.
-l.21     \includegraphics
-                         [width=.8\textwidth]{ras2vec_plat.png}
+l.20     \includegraphics
+                         [width=.8\textwidth]{ras2vec_plat.png}\subcaption{}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1941,8 +1904,8 @@ Missing character: There is no 8 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.21     \includegraphics[width=.8\textwidth]
-                                             {ras2vec_plat.png}
+l.20     \includegraphics[width=.8\textwidth]
+                                             {ras2vec_plat.png}\subcaption{}...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1950,8 +1913,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.21     \includegraphics[width=.8\textwidth]
-                                             {ras2vec_plat.png}
+l.20     \includegraphics[width=.8\textwidth]
+                                             {ras2vec_plat.png}\subcaption{}...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1970,14 +1933,14 @@ Missing character: There is no c in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.21 ...cludegraphics[width=.8\textwidth]{ras2vec_
-                                                  plat.png}
+l.20 ...cludegraphics[width=.8\textwidth]{ras2vec_
+                                                  plat.png}\subcaption{}\lab...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.21 ...hics[width=.8\textwidth]{ras2vec_plat.png}
-                                                  
+l.20 ...hics[width=.8\textwidth]{ras2vec_plat.png}
+                                                  \subcaption{}\label{fig:ra...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1985,43 +1948,27 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.22      \subcaption
-                     {}
+l.20 ....8\textwidth]{ras2vec_plat.png}\subcaption
+                                                  {}\label{fig:ras2vec_plat}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: \begin{document} ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24     \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24     \end{subfigure}
-                        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+l.21   \end{minipage}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.24     \end{subfigure}
-                        
+l.21   \end{minipage}
+                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2035,61 +1982,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25    \caption
-                [Трассировка растровых изображений в программе Inkscape]
+l.22   \caption
+               []{Трассировка растровых изображений  в программе Inkscape}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no Т in font nullfont!
-Missing character: There is no р in font nullfont!
-Missing character: There is no а in font nullfont!
-Missing character: There is no с in font nullfont!
-Missing character: There is no с in font nullfont!
-Missing character: There is no и in font nullfont!
-Missing character: There is no р in font nullfont!
-Missing character: There is no о in font nullfont!
-Missing character: There is no в in font nullfont!
-Missing character: There is no к in font nullfont!
-Missing character: There is no а in font nullfont!
-Missing character: There is no р in font nullfont!
-Missing character: There is no а in font nullfont!
-Missing character: There is no с in font nullfont!
-Missing character: There is no т in font nullfont!
-Missing character: There is no р in font nullfont!
-Missing character: There is no о in font nullfont!
-Missing character: There is no в in font nullfont!
-Missing character: There is no ы in font nullfont!
-Missing character: There is no х in font nullfont!
-Missing character: There is no и in font nullfont!
-Missing character: There is no з in font nullfont!
-Missing character: There is no о in font nullfont!
-Missing character: There is no б in font nullfont!
-Missing character: There is no р in font nullfont!
-Missing character: There is no а in font nullfont!
-Missing character: There is no ж in font nullfont!
-Missing character: There is no е in font nullfont!
-Missing character: There is no н in font nullfont!
-Missing character: There is no и in font nullfont!
-Missing character: There is no й in font nullfont!
-Missing character: There is no в in font nullfont!
-Missing character: There is no п in font nullfont!
-Missing character: There is no р in font nullfont!
-Missing character: There is no о in font nullfont!
-Missing character: There is no г in font nullfont!
-Missing character: There is no р in font nullfont!
-Missing character: There is no а in font nullfont!
-Missing character: There is no м in font nullfont!
-Missing character: There is no м in font nullfont!
-Missing character: There is no е in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no Т in font nullfont!
 Missing character: There is no р in font nullfont!
@@ -2147,7 +2045,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \end{figure}
+l.23 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2254,11 +2152,12 @@ Missing character: There is no т in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no м in font nullfont!
 Missing character: There is no у in font nullfont!
+Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.28 ...tnote{CAM -- Computer Aided Manufacturing}
-                                                  . Таким образом, второй эт...
+l.24 ...note{CAM -- Computer Aided Manufacturing.}
+                                                   Таким образом, второй эта...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2268,8 +2167,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.28 ...tnote{CAM -- Computer Aided Manufacturing}
-                                                  . Таким образом, второй эт...
+l.24 ...note{CAM -- Computer Aided Manufacturing.}
+                                                   Таким образом, второй эта...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2277,56 +2176,55 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (23.88893pt too wide) in paragraph at lines 28--28
+Overfull \hbox (23.88893pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 CAM
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 28--28
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 --
  []
 
 
-Overfull \hbox (23.88893pt too wide) in paragraph at lines 28--28
+Overfull \hbox (23.88893pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 Com-
  []
 
 
-Overfull \hbox (23.36116pt too wide) in paragraph at lines 28--28
+Overfull \hbox (23.36116pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 puter
  []
 
 
-Overfull \hbox (25.83339pt too wide) in paragraph at lines 28--28
+Overfull \hbox (25.83339pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 Aided
  []
 
 
-Overfull \hbox (23.0556pt too wide) in paragraph at lines 28--28
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 Man-
  []
 
 
-Overfull \hbox (8.8889pt too wide) in paragraph at lines 28--28
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 u-
  []
 
 
-Overfull \hbox (15.83336pt too wide) in paragraph at lines 28--28
+Overfull \hbox (15.83336pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 fac-
  []
 
 
-Overfull \hbox (16.69447pt too wide) in paragraph at lines 28--28
+Overfull \hbox (16.69447pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 tur-
  []
 
 
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 28--28
-\OT1/cmr/m/n/10 ing| 
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 24--24
+\OT1/cmr/m/n/10 ing.| 
  []
 
-Missing character: There is no . in font nullfont!
 Missing character: There is no Т in font nullfont!
 Missing character: There is no а in font nullfont!
 Missing character: There is no к in font nullfont!
@@ -2409,7 +2307,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ... Например, система PyCAM \cite{pycam_docs}
+l.24 ... Например, система PyCAM \cite{pycam_docs}
                                                    принимает на вход DXF\foo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2418,7 +2316,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `pycam_docs' on page  undefined on input line 28.
+LaTeX Warning: Citation `pycam_docs' on page  undefined on input line 24.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no п in font nullfont!
@@ -2442,8 +2340,8 @@ Missing character: There is no F in font nullfont!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.28 ...ской информацией между приложениями САПР.}
-                                                   и SVG файлы\footnote{SVG ...
+l.24 ...ской информацией между приложениями САПР.}
+                                                   и SVG\footnote{SVG (Scala...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2453,8 +2351,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.28 ...ской информацией между приложениями САПР.}
-                                                   и SVG файлы\footnote{SVG ...
+l.24 ...ской информацией между приложениями САПР.}
+                                                   и SVG\footnote{SVG (Scala...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2543,47 +2441,47 @@ Missing character: There is no А in font cmr10!
 Missing character: There is no П in font cmr10!
 Missing character: There is no Р in font cmr10!
 
-Overfull \hbox (21.38893pt too wide) in paragraph at lines 28--28
+Overfull \hbox (21.38893pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 DXF
  []
 
 
-Overfull \hbox (30.72226pt too wide) in paragraph at lines 28--28
+Overfull \hbox (30.72226pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 (Draw-
  []
 
 
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 28--28
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 ing
  []
 
 
-Overfull \hbox (15.27779pt too wide) in paragraph at lines 28--28
+Overfull \hbox (15.27779pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 eX-
  []
 
 
-Overfull \hbox (29.72227pt too wide) in paragraph at lines 28--28
+Overfull \hbox (29.72227pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 change
  []
 
 
-Overfull \hbox (17.94447pt too wide) in paragraph at lines 28--28
+Overfull \hbox (17.94447pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 For-
  []
 
 
-Overfull \hbox (21.11118pt too wide) in paragraph at lines 28--28
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 mat)
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 28--28
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 --
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 28--28
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 .| 
  []
 
@@ -2591,16 +2489,11 @@ Missing character: There is no и in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no G in font nullfont!
-Missing character: There is no ф in font nullfont!
-Missing character: There is no а in font nullfont!
-Missing character: There is no й in font nullfont!
-Missing character: There is no л in font nullfont!
-Missing character: There is no ы in font nullfont!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.28 ...фигуры, контуры, текст и эффекты фильтра.}
-                                                  . Следовательно, получив в...
+l.24 ...фигуры, контуры, текст и эффекты фильтра.}
+                                                   файлы. Следовательно, пол...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2610,8 +2503,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.28 ...фигуры, контуры, текст и эффекты фильтра.}
-                                                  . Следовательно, получив в...
+l.24 ...фигуры, контуры, текст и эффекты фильтра.}
+                                                   файлы. Следовательно, пол...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2695,65 +2588,70 @@ Missing character: There is no т in font cmr10!
 Missing character: There is no р in font cmr10!
 Missing character: There is no а in font cmr10!
 
-Overfull \hbox (20.62503pt too wide) in paragraph at lines 28--28
+Overfull \hbox (20.62503pt too wide) in paragraph at lines 24--24
 [][]\OT1/cmr/m/n/10 SVG
  []
 
 
-Overfull \hbox (25.00005pt too wide) in paragraph at lines 28--28
+Overfull \hbox (25.00005pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 (Scal-
  []
 
 
-Overfull \hbox (17.77782pt too wide) in paragraph at lines 28--28
+Overfull \hbox (17.77782pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 able
  []
 
 
-Overfull \hbox (18.88889pt too wide) in paragraph at lines 28--28
+Overfull \hbox (18.88889pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 Vec-
  []
 
 
-Overfull \hbox (12.80559pt too wide) in paragraph at lines 28--28
+Overfull \hbox (12.80559pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 tor
  []
 
 
-Overfull \hbox (31.20839pt too wide) in paragraph at lines 28--28
+Overfull \hbox (31.20839pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 Graph-
  []
 
 
-Overfull \hbox (15.05557pt too wide) in paragraph at lines 28--28
+Overfull \hbox (15.05557pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 ics)
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 28--28
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 --
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 28--28
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 ,
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 28--28
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 ,
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 28--28
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 ,
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 28--28
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 24--24
 \OT1/cmr/m/n/10 .| 
  []
 
+Missing character: There is no ф in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no ы in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no С in font nullfont!
 Missing character: There is no л in font nullfont!
@@ -2815,32 +2713,32 @@ Missing character: There is no У in font nullfont!
 Missing character: There is no П in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 12--29
+Overfull \hbox (20.0pt too wide) in paragraph at lines 12--25
 []
  []
 
 
-Overfull \hbox (35.63977pt too wide) in paragraph at lines 12--29
-[]\OML/cmm/m/it/10 lat:png[][]$
+Overfull \hbox (455.24408pt too wide) in paragraph at lines 12--25
+[]$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 12--29
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 12--25
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 12--29
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 12--25
 []
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 12--29
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 12--25
 []
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 12--29
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 12--25
 []
  []
 
@@ -2901,7 +2799,7 @@ Missing character: There is no к in font nullfont!
 Missing character: There is no и in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 30--31
+Overfull \hbox (20.0pt too wide) in paragraph at lines 26--27
 []
  []
 
@@ -2953,15 +2851,6 @@ Missing character: There is no т in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no р in font nullfont!
 Missing character: There is no я in font nullfont!
-Missing character: There is no н in font nullfont!
-Missing character: There is no е in font nullfont!
-Missing character: There is no к in font nullfont!
-Missing character: There is no о in font nullfont!
-Missing character: There is no т in font nullfont!
-Missing character: There is no о in font nullfont!
-Missing character: There is no р in font nullfont!
-Missing character: There is no ы in font nullfont!
-Missing character: There is no х in font nullfont!
 Missing character: There is no д in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no т in font nullfont!
@@ -2969,13 +2858,9 @@ Missing character: There is no а in font nullfont!
 Missing character: There is no л in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no й in font nullfont!
-Missing character: There is no в in font nullfont!
-Missing character: There is no с in font nullfont!
-Missing character: There is no л in font nullfont!
-Missing character: There is no у in font nullfont!
-Missing character: There is no ч in font nullfont!
-Missing character: There is no а in font nullfont!
-Missing character: There is no е in font nullfont!
+Missing character: There is no п in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no и in font nullfont!
 Missing character: There is no и in font nullfont!
 Missing character: There is no с in font nullfont!
 Missing character: There is no п in font nullfont!
@@ -2988,7 +2873,7 @@ Missing character: There is no в in font nullfont!
 Missing character: There is no а in font nullfont!
 Missing character: There is no н in font nullfont!
 Missing character: There is no и in font nullfont!
-Missing character: There is no я in font nullfont!
+Missing character: There is no и in font nullfont!
 Missing character: There is no с in font nullfont!
 Missing character: There is no и in font nullfont!
 Missing character: There is no с in font nullfont!
@@ -3369,7 +3254,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.36 ... стандарте ISO/IEC~25010:2011 \cite{iso_q}
+l.32 ... стандарте ISO/IEC~25010:2011 \cite{iso_q}
                                                   . Она в~большей степени, ч...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3378,7 +3263,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `iso_q' on page  undefined on input line 36.
+LaTeX Warning: Citation `iso_q' on page  undefined on input line 32.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -3510,12 +3395,12 @@ Missing character: There is no е in font nullfont!
 Missing character: There is no й in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (5.74997pt too wide) in paragraph at lines 36--37
+Overfull \hbox (5.74997pt too wide) in paragraph at lines 32--33
  \OT1/cmr/bx/n/10 .
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 36--37
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 32--33
 []
  []
 
@@ -3602,7 +3487,7 @@ Missing character: There is no т in font nullfont!
 Missing character: There is no ь in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.46 {\it
+l.42 {\it
           Функциональность}. С точки зрения функциональности ArtCAM не уступ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4126,7 +4011,7 @@ Missing character: There is no н in font nullfont!
 Missing character: There is no ы in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 46--47
+Overfull \hbox (20.0pt too wide) in paragraph at lines 42--43
 []
  []
 
@@ -4165,6 +4050,9 @@ Missing character: There is no е in font nullfont!
 Missing character: There is no н in font nullfont!
 Missing character: There is no т in font nullfont!
 Missing character: There is no ы in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no я in font nullfont!
 Missing character: There is no с in font nullfont!
 Missing character: There is no г in font nullfont!
 Missing character: There is no л in font nullfont!
@@ -4184,7 +4072,8 @@ Missing character: There is no о in font nullfont!
 Missing character: There is no д in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no л in font nullfont!
-Missing character: There is no и in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no й in font nullfont!
 Missing character: There is no р in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no л in font nullfont!
@@ -4256,12 +4145,12 @@ Missing character: There is no г in font nullfont!
 Missing character: There is no о in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 48--49
+Overfull \hbox (20.0pt too wide) in paragraph at lines 44--45
 []
  []
 
 ! Undefined control sequence.
-l.50 {\it
+l.46 {\it
           Надежность}.  Надежность в данной работе не будет рассмотрена, так...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4400,12 +4289,12 @@ Missing character: There is no м in font nullfont!
 Missing character: There is no ы in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 50--51
+Overfull \hbox (20.0pt too wide) in paragraph at lines 46--47
 []
  []
 
 ! Undefined control sequence.
-l.52 {\it
+l.48 {\it
           Удобство}. ArtCAM построена в виде традиционного десктопного прило...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4526,6 +4415,7 @@ Missing character: There is no б in font nullfont!
 Missing character: There is no р in font nullfont!
 Missing character: There is no а in font nullfont!
 Missing character: There is no з in font nullfont!
+Missing character: There is no - in font nullfont!
 Missing character: There is no н in font nullfont!
 Missing character: There is no ы in font nullfont!
 Missing character: There is no м in font nullfont!
@@ -4855,12 +4745,12 @@ Missing character: There is no и in font nullfont!
 Missing character: There is no и in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 52--53
+Overfull \hbox (20.0pt too wide) in paragraph at lines 48--49
 []
  []
 
 ! Undefined control sequence.
-l.54 {\it
+l.50 {\it
           Эффективность}. Под эффективностью чаще всего \mbox{подразумеваетс...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5006,7 +4896,7 @@ Missing character: There is no 7 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no М in font nullfont!
-Missing character: There is no б in font nullfont!
+Missing character: There is no Б in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no О in font nullfont!
 Missing character: There is no д in font nullfont!
@@ -5136,10 +5026,10 @@ Missing character: There is no и in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no Г in font nullfont!
-Missing character: There is no б in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no M in font nullfont!
+Missing character: There is no Б in font nullfont!
+Missing character: There is no О in font nullfont!
+Missing character: There is no З in font nullfont!
+Missing character: There is no У in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no С in font nullfont!
 Missing character: There is no л in font nullfont!
@@ -5228,7 +5118,7 @@ Missing character: There is no и in font nullfont!
 Missing character: There is no и in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 54--55
+Overfull \hbox (20.0pt too wide) in paragraph at lines 50--51
 []
  []
 
@@ -5240,7 +5130,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \newpage
+l.51 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5250,7 +5140,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> \newlabel{fig:ras2vec}{{}{\thepage 
                                            }}
-l.55 \newpage
+l.51 \newpage
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5259,21 +5149,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{fig:ras2vec}{{}{}}
-! Undefined control sequence.
-<write> \newlabel{fig:ras2vec_plat}{{}{\thepage 
-                                                }}
-l.55 \newpage
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{fig:ras2vec_plat}{{}{}}
 ]
 ! Undefined control sequence.
-l.57 {\it
+l.53 {\it
           Сопровождаемость}. Как известно, сопровождаемость десктопных прило...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5553,12 +5431,12 @@ Missing character: There is no т in font nullfont!
 Missing character: There is no ч in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 57--58
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--54
 []
  []
 
 ! Undefined control sequence.
-l.59 {\it
+l.55 {\it
           Портируемость}. Основной характеристикой портируемости \mbox{являе...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5670,13 +5548,23 @@ Missing character: There is no л in font nullfont!
 Missing character: There is no ь in font nullfont!
 Missing character: There is no к in font nullfont!
 Missing character: There is no о in font nullfont!
-Missing character: There is no п in font nullfont!
-Missing character: There is no л in font nullfont!
-Missing character: There is no а in font nullfont!
-Missing character: There is no т in font nullfont!
-Missing character: There is no ф in font nullfont!
 Missing character: There is no о in font nullfont!
+Missing character: There is no п in font nullfont!
+Missing character: There is no е in font nullfont!
 Missing character: There is no р in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no ц in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no ю in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no е in font nullfont!
 Missing character: There is no м in font nullfont!
 Missing character: There is no у in font nullfont!
 Missing character: There is no W in font nullfont!
@@ -5712,7 +5600,7 @@ Missing character: There is no и in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 59--60
+Overfull \hbox (20.0pt too wide) in paragraph at lines 55--56
 []
  []
 
@@ -5743,6 +5631,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no ч in font nullfont!
 Missing character: There is no т in font nullfont!
 Missing character: There is no о in font nullfont!
+Missing character: There is no у in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -5755,6 +5644,8 @@ Missing character: There is no е in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no т in font nullfont!
 Missing character: There is no с in font nullfont!
+Missing character: There is no я in font nullfont!
+Missing character: There is no с in font nullfont!
 Missing character: There is no л in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no д in font nullfont!
@@ -5762,7 +5653,15 @@ Missing character: There is no у in font nullfont!
 Missing character: There is no ю in font nullfont!
 Missing character: There is no щ in font nullfont!
 Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no п in font nullfont!
 Missing character: There is no е in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no ч in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no ь in font nullfont!
 Missing character: There is no н in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no д in font nullfont!
@@ -5772,10 +5671,11 @@ Missing character: There is no т in font nullfont!
 Missing character: There is no а in font nullfont!
 Missing character: There is no т in font nullfont!
 Missing character: There is no к in font nullfont!
-Missing character: There is no и in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no в in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 61--62
+Overfull \hbox (20.0pt too wide) in paragraph at lines 57--58
 []
  []
 
@@ -6156,12 +6056,12 @@ Missing character: There is no н in font nullfont!
 Missing character: There is no о in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 69--70
+Overfull \hbox (20.0pt too wide) in paragraph at lines 65--66
 []
  []
 
 ! Undefined control sequence.
-l.71 \section
+l.67 \section
              {Предлагаемый подход}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6403,7 +6303,7 @@ Missing character: There is no и in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 71--73
+Overfull \hbox (20.0pt too wide) in paragraph at lines 67--69
 []
  []
 
@@ -6461,7 +6361,7 @@ Missing character: There is no р in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.74 ...на клиент-серверной архитектуре\,(\autoref
+l.70 ...на клиент-серверной архитектуре\,(\autoref
                                                   {fig:client-server}), где ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6506,7 +6406,15 @@ Missing character: There is no и in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no н in font nullfont!
 Missing character: There is no т in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no к in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no ч in font nullfont!
 Missing character: There is no а in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no и in font nullfont!
 Missing character: There is no в in font nullfont!
 Missing character: There is no ы in font nullfont!
 Missing character: There is no с in font nullfont!
@@ -6544,7 +6452,14 @@ Missing character: There is no р in font nullfont!
 Missing character: There is no в in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no р in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no ч in font nullfont!
 Missing character: There is no а in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no и in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no в in font nullfont!
@@ -6565,7 +6480,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 \begin{figure}
+l.71 \begin{figure}
                    [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6576,7 +6491,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.77     \includegraphics
+l.73     \includegraphics
                          [width=.8\textwidth]{client-server.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6596,7 +6511,7 @@ Missing character: There is no 8 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.77     \includegraphics[width=.8\textwidth]
+l.73     \includegraphics[width=.8\textwidth]
                                              {client-server.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -6605,7 +6520,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.77     \includegraphics[width=.8\textwidth]
+l.73     \includegraphics[width=.8\textwidth]
                                              {client-server.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -6639,7 +6554,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78     \caption
+l.74     \caption
                  [Клиент-серверная архитектура]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6707,14 +6622,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 \end{figure}
+l.77 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 74--82
+Overfull \hbox (20.0pt too wide) in paragraph at lines 70--78
 []
  []
 
@@ -7171,6 +7086,7 @@ Missing character: There is no и in font nullfont!
 Missing character: There is no т in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no д in font nullfont!
+Missing character: There is no . in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no ф in font nullfont!
@@ -7352,6 +7268,7 @@ Missing character: There is no и in font nullfont!
 Missing character: There is no т in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no д in font nullfont!
+Missing character: There is no . in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no Т in font nullfont!
@@ -7452,28 +7369,9 @@ Missing character: There is no е in font nullfont!
 Missing character: There is no н in font nullfont!
 Missing character: There is no и in font nullfont!
 Missing character: There is no я in font nullfont!
-Missing character: There is no ( in font nullfont!
-! Undefined control sequence.
-l.83 ...ивать работу и вносить изменения (\autoref
-                                                  {app:root}).
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 83--84
+Overfull \hbox (20.0pt too wide) in paragraph at lines 79--80
 []
  []
 
@@ -7689,7 +7587,7 @@ Missing character: There is no е in font nullfont!
 Missing character: There is no й in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 85--86
+Overfull \hbox (20.0pt too wide) in paragraph at lines 81--82
 []
  []
 
@@ -7726,7 +7624,7 @@ Missing character: There is no о in font nullfont!
 Missing character: There is no в in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 87--88
+Overfull \hbox (20.0pt too wide) in paragraph at lines 83--84
 []
  []
 
@@ -8095,13 +7993,15 @@ Missing character: There is no в in font nullfont!
 Missing character: There is no а in font nullfont!
 Missing character: There is no ю in font nullfont!
 Missing character: There is no т in font nullfont!
-Missing character: There is no д in font nullfont!
+Missing character: There is no п in font nullfont!
 Missing character: There is no а in font nullfont!
-Missing character: There is no н in font nullfont!
-Missing character: There is no н in font nullfont!
-Missing character: There is no ы in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no м in font nullfont!
 Missing character: There is no е in font nullfont!
-Missing character: There is no с in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no ы in font nullfont!
 Missing character: There is no п in font nullfont!
 Missing character: There is no и in font nullfont!
 Missing character: There is no к in font nullfont!
@@ -8178,7 +8078,7 @@ Missing character: There is no м in font nullfont!
 Missing character: There is no а in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 96--97
+Overfull \hbox (20.0pt too wide) in paragraph at lines 92--93
 []
  []
 
@@ -8327,13 +8227,13 @@ Missing character: There is no т in font nullfont!
 Missing character: There is no и in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 98--99
+Overfull \hbox (20.0pt too wide) in paragraph at lines 94--95
 []
  []
 
 ! Undefined control sequence.
-l.100 \section
-              {Результаты сравнения}
+l.96 \section
+             {Результаты сравнения}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8463,7 +8363,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 \begin{sidewaystable}
+l.103 \begin{sidewaystable}
                            [!ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8481,7 +8381,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \caption
+l.104 \caption
               {Результирующая таблица сравнения современных систем и предлаг...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -8556,13 +8456,13 @@ Missing character: There is no о in font nullfont!
 Missing character: There is no д in font nullfont!
 Missing character: There is no а in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 100--110
+Overfull \hbox (20.0pt too wide) in paragraph at lines 96--106
 []
  []
 
 ! Undefined control sequence.
-l.111 \footnotesize
-                   
+l.107 \small
+            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8572,7 +8472,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \bf 
                     
-l.114   	\bf
+l.111   	\bf
              \multirow{4}{*}{Параметры}&  \centering \bf Двухэтапный способ ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8581,7 +8481,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.114   	\bf \multirow
+l.111   	\bf \multirow
                       {4}{*}{Параметры}&  \centering \bf Двухэтапный способ ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8601,8 +8501,8 @@ Missing character: There is no т in font nullfont!
 Missing character: There is no р in font nullfont!
 Missing character: There is no ы in font nullfont!
 ! Undefined control sequence.
-l.114 ...ultirow{4}{*}{Параметры}&  \centering \bf
-                                                   Двухэтапный способ с вект...
+l.111 ...ultirow{4}{*}{Параметры}&  \centering \bf
+                                                   Двухэтапный способ с~вект...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8652,8 +8552,8 @@ Missing character: There is no н in font nullfont!
 Missing character: There is no и in font nullfont!
 Missing character: There is no я in font nullfont!
 ! Undefined control sequence.
-l.114 ...й способ с векторизацией изображения& \bf
-                                                  \multirow{4}{*}{ArtCAM} &\...
+l.111 ...й способ с~векторизацией изображения& \bf
+                                                  \multirow{3}{*}{ArtCAM} &\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8661,15 +8561,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.114 ...с векторизацией изображения& \bf\multirow
-                                                  {4}{*}{ArtCAM} &\centering...
+l.111 ...с~векторизацией изображения& \bf\multirow
+                                                  {3}{*}{ArtCAM} &\centering...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no * in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -8678,7 +8578,7 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no M in font nullfont!
 ! Undefined control sequence.
-l.114 ...bf\multirow{4}{*}{ArtCAM} &\centering \bf
+l.111 ...bf\multirow{3}{*}{ArtCAM} &\centering \bf
                                                    \mbox{ПО для станка} (3D-...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8724,8 +8624,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.114 ... станка} (3D-Engrave Software Roland)&\bf
-                                                  \multirow{4}{*}{Предлагаем...
+l.111 ... станка} (3D-Engrave Software Roland)&\bf
+                                                  \multirow{3}{*}{Предлагаем...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8733,15 +8633,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.114 ...(3D-Engrave Software Roland)&\bf\multirow
-                                                  {4}{*}{Предлагаемый подход}\\
+l.111 ...(3D-Engrave Software Roland)&\bf\multirow
+                                                  {3}{*}{Предлагаемый подход}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no * in font nullfont!
 Missing character: There is no П in font nullfont!
 Missing character: There is no р in font nullfont!
@@ -8834,7 +8734,7 @@ Missing character: There is no я in font nullfont!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.118 ...note[*]{Зависит от сложности изображения}
+l.115 ...note[*]{Зависит от сложности изображения}
                                                    & высокая & \centering от...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8845,7 +8745,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.118 ...note[*]{Зависит от сложности изображения}
+l.115 ...note[*]{Зависит от сложности изображения}
                                                    & высокая & \centering от...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8883,7 +8783,7 @@ Missing character: There is no н in font cmr10!
 Missing character: There is no и in font cmr10!
 Missing character: There is no я in font cmr10!
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 118--118
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 115--115
  [][]| 
  []
 
@@ -9093,7 +8993,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 \normalsize
+l.124 \normalsize
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9106,7 +9006,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 \end{sidewaystable}
+l.126 \end{sidewaystable}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9115,7 +9015,7 @@ or  <return>  to continue without it.
 Missing character: There is no И in font nullfont!
 Missing character: There is no з in font nullfont!
 ! Undefined control sequence.
-l.131 Из \autoref
+l.128 Из \autoref
                  {t:my} видно, что предлагаемый подход лучше по всем приведе...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9199,10 +9099,10 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 26 strings out of 493117
- 308 string characters out of 6135433
+ 24 strings out of 493117
+ 287 string characters out of 6135433
  58909 words of memory out of 5000000
- 3586 multiletter control sequences out of 15000+600000
+ 3584 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  18i,13n,21p,916b,281s stack positions out of 5000i,500n,10000p,200000b,80000s

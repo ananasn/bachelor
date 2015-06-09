@@ -36,7 +36,7 @@
 Designing an MVC Model for Rapid Web Application Development~//
   \BibEmph{Procedia Engineering}.
 \newblock 2014.
-\newblock Vol.~69, no.~0.
+\newblock Vol.~69.
 \newblock P.~1172 -- 1179.
 \newblock 24th International Symposium on Intelligent Manufacturing and
   Automation, 2013.
@@ -46,7 +46,7 @@ Designing an MVC Model for Rapid Web Application Development~//
 \BibEmph{Evans~A., Romeo~M., Bahrehmand~A. et~al.} 3D graphics on the web:
   A~survey~// \BibEmph{Computers \& Graphics}.
 \newblock 2014.
-\newblock Vol.~41, no.~0.
+\newblock Vol.~41.
 \newblock P.~43 -- 61.
 
 \bibitem{Threejs_link}
@@ -82,7 +82,7 @@ Designing an MVC Model for Rapid Web Application Development~//
 
 \bibitem{iso_q}
 \selectlanguageifdefined{english}
-ISO/IEC 25010:2011 Systems and software engineering -- Systems and software
+ISO/IEC 25010:2011. Systems and software engineering -- Systems and software
   Quality Requirements and Evaluation (SQuaRE) -- System and software quality
   models.
 \newblock British Standards Institution, 2011.
@@ -103,7 +103,7 @@ ISO/IEC 25010:2011 Systems and software engineering -- Systems and software
 
 \bibitem{chpu_iso}
 \selectlanguageifdefined{english}
-ISO 6983-1:2009 Automation systems and integration. Numerical control of
+ISO 6983-1:2009. Automation systems and integration. Numerical control of
   machines. Program format and definitions of address words. Part 1: Data
   format for positioning, line motion and contouring control systems.
 \newblock International Organization for Standardization, 2009.
@@ -111,7 +111,7 @@ ISO 6983-1:2009 Automation systems and integration. Numerical control of
 
 \bibitem{chpu_gost}
 \selectlanguageifdefined{russian}
-ГОСТ 20999-83 Устройства числового программного управления для
+ГОСТ 20999-83. Устройства числового программного управления для
   металлообрабатывающего оборудования. Кодирование информации управляющих
   программ.
 \newblock Госстандарт России, 1983.
@@ -128,7 +128,8 @@ ISO 6983-1:2009 Automation systems and integration. Numerical control of
 
 \bibitem{spr}
 \selectlanguageifdefined{english}
-\href{http://www.rolanddga.com}{SPR Player Software Guide[Электронный ресурс]}.
+\href{http://www.rolanddga.com}{SPR Player Software Guide [Электронный
+  ресурс]}.
 \newblock \BibUrl{http://www.rolanddga.com} \BibUrlDate{03.06.2015}.
 
 \bibitem{jviewer}

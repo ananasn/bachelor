@@ -1,21 +1,21 @@
 \chapter{Руководство адмнистратора}
 \label{app:ad}
 \section{Настройка программы}
-Для настройки и запуска разработанного программного комплекса необходимо \mbox{отредактировать} файл run.py. Его расположение в дереве проекта  представлено в \autoref{app:root}.
+Для настройки и запуска разработанного программного комплекса необходимо \mbox{отредактировать} файл \verb|run.py|. Его расположение в дереве проекта  представлено в \autoref{app:root}.
 
-В файле run.py задается имя хоста и прослушиваемого порта, а~также указывается режим функционирования сервера. Для это нужно отредактировать параметры host, port и debug соответственно. 
+В файле run.py задается имя хоста и прослушиваемого порта, а~также указывается режим функционирования сервера. Для это нужно отредактировать параметры \verb|host|, \verb|port| и \verb|debug| соответственно. 
 
 {\singlespacing
 \begin{lstlisting}[showstringspaces=false,basicstyle=\ttfamily,frame=tb,
     numbers=left,numberstyle=\footnotesize,numbersep=5pt,
     caption={Файл конфигураций run.py}]
-#python2.7
+# python 2.7
 from app import app
-app.run(host = '0.0.0.0', port = 8080, debug = True)
+app.run(host='0.0.0.0', port=8080, debug=True)
 \end{lstlisting}
 }
 \section{Запуск}
-Для запуска работы сервера программного комплекса необходимо запустить файл run.py.
+Для запуска работы сервера программного комплекса необходимо запустить файл \verb|run.py|.
 
 {\singlespacing
 \begin{lstlisting}[frame=tb,

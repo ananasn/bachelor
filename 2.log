@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.28)  7 JUN 2015 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.28)  9 JUN 2015 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4372,7 +4372,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.67 \item 5
-            12\,Mb RAM;
+            12\,MБ ОЗУ;
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4380,10 +4380,10 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no M in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no M in font nullfont!
+Missing character: There is no Б in font nullfont!
+Missing character: There is no О in font nullfont!
+Missing character: There is no З in font nullfont!
+Missing character: There is no У in font nullfont!
 Missing character: There is no ; in font nullfont!
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
@@ -4392,23 +4392,32 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \item 1
-            \,GB hard drive;
+l.68 \item ж
+            есткий диск объемом 1\,ГБ;
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no ж in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no к in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no к in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no ъ in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no м in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no B in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no Г in font nullfont!
+Missing character: There is no Б in font nullfont!
 Missing character: There is no ; in font nullfont!
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
@@ -8133,15 +8142,6 @@ Missing character: There is no л in font nullfont!
 Missing character: There is no а in font nullfont!
 Missing character: There is no с in font nullfont!
 Missing character: There is no с in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no и in font nullfont!
 Missing character: There is no н in font nullfont!
@@ -8185,6 +8185,11 @@ Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 122--124
 []
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 122--124
+[]\OT1/cmtt/m/n/10 Generator
  []
 
 Missing character: There is no к in font nullfont!
@@ -8867,10 +8872,9 @@ Missing character: There is no н in font nullfont!
 Missing character: There is no н in font nullfont!
 Missing character: There is no ы in font nullfont!
 Missing character: There is no й in font nullfont!
-Missing character: There is no н in font nullfont!
-Missing character: There is no а in font nullfont!
+Missing character: There is no в in font nullfont!
 ! Undefined control sequence.
-l.140 ...лок преамбулы, представленный на \autoref
+l.140 ...Блок преамбулы, представленный в \autoref
                                                   {lst:preamb}, является спи...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10230,10 +10234,9 @@ Missing character: There is no в in font nullfont!
 Missing character: There is no л in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no н in font nullfont!
-Missing character: There is no н in font nullfont!
-Missing character: There is no а in font nullfont!
+Missing character: There is no в in font nullfont!
 ! Undefined control sequence.
-l.179 ...ограммы. Концевик представлен на \autoref
+l.179 ...рограммы. Концевик представлен в \autoref
                                                   {lst:end}:
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11262,11 +11265,12 @@ Missing character: There is no U in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no S in font nullfont!
+Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
 l.195 ...и и представления кривых и поверхностей.}
-                                                  . С~помощью NURBS можно оп...
+                                                   С~помощью NURBS можно опи...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -11277,7 +11281,7 @@ and I'll forget about whatever was undefined.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
 l.195 ...и и представления кривых и поверхностей.}
-                                                  . С~помощью NURBS можно оп...
+                                                   С~помощью NURBS можно опи...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -11443,7 +11447,6 @@ Overfull \hbox (2.77779pt too wide) in paragraph at lines 195--195
 \OT1/cmr/m/n/10 .| 
  []
 
-Missing character: There is no . in font nullfont!
 Missing character: There is no С in font nullfont!
 Missing character: There is no п in font nullfont!
 Missing character: There is no о in font nullfont!
@@ -11795,5 +11798,5 @@ Here is how much of TeX's memory you used:
  3587 multiletter control sequences out of 15000+600000
  4116 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,5n,21p,905b,123s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,5n,21p,905b,127s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
